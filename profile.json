@@ -345,55 +345,7 @@
                 "icon": "annotations",
                 "toolTip": "Flow Annotation examples",
                 "action": "FOLDER",
-                "resource": {
-                    "title": "Flow Annotation Examples",
-                    "actions": [
-                        {
-                            "position": {
-                                "row": 2,
-                                "col": 3
-                            },
-                            "title": "Title",
-                            "icon": "annotation-blue",
-                            "toolTip": "Title annotation",
-                            "action": "GIT_DV_CLIPBOARD",
-                            "resource": "davinciComponents/flow-title-annotation.json"
-                        },
-                        {
-                            "position": {
-                                "row": 2,
-                                "col": 4
-                            },
-                            "title": "Function",
-                            "icon": "annotation-purple",
-                            "toolTip": "Flow function annotation",
-                            "action": "GIT_DV_CLIPBOARD",
-                            "resource": "davinciComponents/function-title-annotation.json"
-                        },
-                        {
-                            "position": {
-                                "row": 2,
-                                "col": 5
-                            },
-                            "title": "Annotation",
-                            "icon": "annotation-gray",
-                            "toolTip": "Native conector annotation",
-                            "action": "GIT_DV_CLIPBOARD",
-                            "resource": "davinciComponents/node-annotation-gray.json"
-                        },
-                        {
-                            "position": {
-                                "row": 2,
-                                "col": 6
-                            },
-                            "title": "Paid Conn.",
-                            "icon": "annotation-gold",
-                            "toolTip": "Paid connector annotation",
-                            "action": "GIT_DV_CLIPBOARD",
-                            "resource": "davinciComponents/node-annotation-gold.json"
-                        }
-                    ]
-                }
+                "resource": "annotationComponents"
             },
             {
                 "position": {
@@ -500,6 +452,55 @@
                 "toolTip": "View documentation for this profile",
                 "action": "REDIRECT",
                 "resource": "https://github.com/pingone-davinci/streamdeck/blob/main/snippets/README.md"
+            }
+        ]
+    },
+    "annotationComponents": {
+        "title": "Flow Annotation Examples",
+        "actions": [
+            {
+                "position": {
+                    "row": 2,
+                    "col": 3
+                },
+                "title": "Title",
+                "icon": "annotation-blue",
+                "toolTip": "Title annotation",
+                "action": "GIT_DV_CLIPBOARD",
+                "resource": "davinciComponents/flow-title-annotation.json"
+            },
+            {
+                "position": {
+                    "row": 2,
+                    "col": 4
+                },
+                "title": "Function",
+                "icon": "annotation-purple",
+                "toolTip": "Flow function annotation",
+                "action": "GIT_DV_CLIPBOARD",
+                "resource": "davinciComponents/function-title-annotation.json"
+            },
+            {
+                "position": {
+                    "row": 2,
+                    "col": 5
+                },
+                "title": "Annotation",
+                "icon": "annotation-gray",
+                "toolTip": "Native conector annotation",
+                "action": "GIT_DV_CLIPBOARD",
+                "resource": "davinciComponents/node-annotation-gray.json"
+            },
+            {
+                "position": {
+                    "row": 2,
+                    "col": 6
+                },
+                "title": "Paid Conn.",
+                "icon": "annotation-gold",
+                "toolTip": "Paid connector annotation",
+                "action": "GIT_DV_CLIPBOARD",
+                "resource": "davinciComponents/node-annotation-gold.json"
             }
         ]
     },
